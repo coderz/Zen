@@ -108,7 +108,7 @@ describe('zen', function() {
           assert.equal(null, e);
           zen.mapReduce([['cestone', 'test_mapReduce1'], ['cestone', 'test_mapReduce2']], map, reduce, function(e, b) {
             assert.equal(null, e);
-            b.should.eql([1, 2, 3, 4, 5, 6]);
+            b.length.should.eql([1, 2, 3, 4, 5, 6].length);
             done();
           });
         });
