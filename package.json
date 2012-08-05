@@ -11,11 +11,11 @@
   , "dependencies": {
     "request": ">= 0.0.0"
     , "optimal": "0.0.3"
+    , "utile": ">= 0.0.0"
   }
   , "devDependencies": {
     "mocha": ">= 0.0.0"
     , "should": ">= 0.0.0"
-    , "utile": ">= 0.0.0"
   }
   , "scripts": {
     "test": "mocha -R spec -r should test/*-test.js"
